@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chatroom>
+  <message id="1">
+    <username userId="4">Justin</username>
+    <messageTime>2019-04-10 4:46:56</messageTime>
+    <messageContent>tabs&gt;&gt;&gt;
+</messageContent>
+  </message>
+  <message id="2">
+    <username userId="4">Justin</username>
+    <messageTime>2019-04-10 4:47:10</messageTime>
+    <messageContent>try and convince me otherwise 
+</messageContent>
+  </message>
+  <message id="3">
+    <username userId="4">justin</username>
+    <messageTime>2019-05-07 19:27:41</messageTime>
+    <messageContent>test</messageContent>
+  </message>
+</chatroom>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chatrooms>
+        <room id="1">
+            <topic>Pineapple on pizza</topic>
+        </room>
+        <room id="2">
+            <topic>Spaces vs. Tabs</topic>
+        </room>
+        <room id="3">
+            <topic>Do airpods look silly?</topic>
+        </room>
+</chatrooms>

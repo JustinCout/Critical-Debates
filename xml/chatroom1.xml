@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chatroom>
+  <message id="1">
+    <username userId="1">Kento</username>
+    <messageTime>01/31/2019 13:24:45</messageTime>
+    <messageContent><![CDATA[Alright, lets settle this once and for all!]]></messageContent>
+  </message>
+  <message id="2">
+    <username userId="2">Jing</username>
+    <messageTime>01/31/2019 13:27:51</messageTime>
+    <messageContent><![CDATA[Pineapple on pizza is an abomination.]]></messageContent>
+  </message>
+  <message id="3">
+    <username userId="1">Kento</username>
+    <messageTime>01/31/2019 13:29:53</messageTime>
+    <messageContent><![CDATA[WHAT! How could you say that?]]></messageContent>
+  </message>
+  <message id="4">
+    <username userId="3">Mark</username>
+    <messageTime>01/31/2019 13:31:54</messageTime>
+    <messageContent><![CDATA[Sorry Kento, but I agree with Jing on this one.]]></messageContent>
+  </message>
+  <message id="5">
+    <username userId="2">Jing</username>
+    <messageTime>01/31/2019 13:35:38</messageTime>
+    <messageContent><![CDATA[I think we offended him.]]></messageContent>
+  </message>
+  <message id="6">
+    <username userId="3">Mark</username>
+    <messageTime>01/31/2019 13:37:56</messageTime>
+    <messageContent><![CDATA[lol]]></messageContent>
+  </message>
+  <message id="7">
+    <username userId="4">Justin</username>
+    <messageTime>2019-04-10 4:45:26</messageTime>
+    <messageContent>I'm pretty neutral on this one guys
+</messageContent>
+  </message>
+  <message id="8">
+    <username userId="4">Justin</username>
+    <messageTime>2019-04-10 4:45:42</messageTime>
+    <messageContent>it's not bad but not the best either
+</messageContent>
+  </message>
+  <message id="9">
+    <username userId="4">Justin</username>
+    <messageTime>2019-04-10 4:45:43</messageTime>
+    <messageContent>lol
+</messageContent>
+  </message>
+</chatroom>

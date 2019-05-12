@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chatroom>
+  <message id="1">
+    <username userId="4">Justin</username>
+    <messageTime>2019-04-10 4:47:29</messageTime>
+    <messageContent>yes they do
+</messageContent>
+  </message>
+  <message id="2">
+    <username userId="4">Justin</username>
+    <messageTime>2019-04-10 4:47:44</messageTime>
+    <messageContent>but that doesn't mean I wouldn't wear them
+</messageContent>
+  </message>
+  <message id="3">
+    <username userId="4">Justin</username>
+    <messageTime>2019-04-10 4:48:29</messageTime>
+    <messageContent>but I also could not justify the expense when their are better options for bluetooth earbuds
+</messageContent>
+  </message>
+</chatroom>

@@ -5,7 +5,7 @@
                 echo $title . ' | ';
             }
             ?>
-        Great Debates</title>
+        Critical Debates</title>
     <?php
     require_once 'config.php';
     ?>

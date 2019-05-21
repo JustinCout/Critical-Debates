@@ -1,6 +1,6 @@
 <header>
-    <nav class="navbar navbar-dark bg-dark">
-        <h2 class="appTitle">Great Debates</h2>
+    <nav class="navbar">
+        <h2 class="appTitle">Critical Debates</h2>
         <div id="welcomeMsg">
             <?php
             if (isset($_SESSION['access_token'])) {

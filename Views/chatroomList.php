@@ -13,7 +13,7 @@ include '../head.php';
     ?>
     <div class="pageWrap">
         <main id="mainList">
-            <h2>Chatrooms</h2>
+            <h1>Chatrooms</h1>
 
             <?php
             $xml = simplexml_load_file("..\xml\chatrooms.xml");

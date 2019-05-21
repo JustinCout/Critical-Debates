@@ -16,7 +16,7 @@ include '../head.php';
             <a id="back" href="http://localhost/Assign3-API-JustinCoutinho/Views/chatroomList.php">Back to Chatrooms</a>
             <h1>Spaces vs. Tabs</h1>
             <div class="row">
-                <div id="chatbox2" class="col-lg-12">
+                <div id="chatbox2">
                     <?php
                     include '../Controllers/chatroom2Controller.php';
                     ?>

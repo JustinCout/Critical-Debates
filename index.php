@@ -6,8 +6,8 @@ include 'head.php';
 ?>
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark">
-            <h2 class="indexTitle">Great Debates</h2>
+        <nav class="navbar">
+            <h2 class="indexTitle">Critical Debates</h2>
         </nav>
     </header>
     <div class="pageWrap">

@@ -1,6 +1,4 @@
 <?php
-//Learned from
-//https://www.youtube.com/watch?v=hazMyK_cnzk&list=WL&index=9&t=0s
 
 require_once '../config.php';
 if (isset($_SESSION['access_token']))
@@ -21,5 +19,5 @@ $_SESSION['picture'] = $userData['picture'];
 $_SESSION['familyName'] = $userData['familyName'];
 $_SESSION['givenName'] = $userData['givenName'];
 
-header('Location: http://localhost/Assign3-API-JustinCoutinho/Views/chatroomList.php');
+header('Location: http://localhost/Critical-Debates/Views/chatroomList.php');
 exit();

@@ -19,9 +19,9 @@ include '../head.php';
             $xml = simplexml_load_file("..\xml\chatrooms.xml");
 
             foreach ($xml->room as $room) {
-                echo "<ul class='list-group'>
-            <li class='list-group-item'><a href='chatroom" . $room->attributes() . ".php'>$room->topic</a></li>
-            </ul>";
+                echo "<div class='chatroomBlock'><div class='imgContainer img" . $room->attributes() . "'></div><ul>
+            <li><a href='chatroom" . $room->attributes() . ".php'>$room->topic</a></li>
+            </ul></div>";
             }
             ?>
 

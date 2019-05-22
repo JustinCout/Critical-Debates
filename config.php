@@ -5,7 +5,7 @@ $gClient = new Google_Client();
 $gClient->setClientId('546382601281-87f0rda16mks7o57dmrib1j7ul2547bg.apps.googleusercontent.com');
 $gClient->setClientSecret('dU0-BF8tOSfW6mJu4FuR_ZOK');
 $gClient->setApplicationName("Great Debates");
-$gClient->setRedirectUri("http://localhost/Assign3-API-JustinCoutinho/Controllers/g-callback.php");
+$gClient->setRedirectUri("http://localhost/Critical-Debates/Controllers/g-callback.php");
 $gClient->addScope("https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email");
 
 define('ROOTPATH', "http://localhost/Critical-Debates/");

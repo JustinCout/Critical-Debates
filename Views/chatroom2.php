@@ -13,15 +13,15 @@ include '../head.php';
     ?>
     <div class="pageWrap">
         <main>
-            <a id="back" href="http://localhost/Assign3-API-JustinCoutinho/Views/chatroomList.php">Back to Chatrooms</a>
+            <a id="back" href="http://localhost/Critical-Debates/Views/chatroomList.php">Back to Chatrooms</a>
             <h1>Spaces vs. Tabs</h1>
-            <div class="row">
+    
                 <div id="chatbox2">
                     <?php
                     include '../Controllers/chatroom2Controller.php';
                     ?>
                 </div>
-            </div>
+      
             <div class="form-group shadow-textarea">
                 <form action="" method="POST" id="msgForm">
                     <textarea class="form-control z-depth-1" name="msg" id="newMsg2"></textarea><br />

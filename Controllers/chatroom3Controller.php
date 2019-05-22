@@ -1,4 +1,5 @@
 <?php
+session_write_close();
 session_start();
 if (isset($_POST['message'])) {
     $XML = new DOMDocument();
@@ -18,7 +19,7 @@ if (isset($_POST['message'])) {
     } else {
         $name = $XML->createElement("username", $_SESSION['username']);
     }
-
+    
     $date = date('Y-m-d G:i:s');
     $dt = $XML->createElement("messageTime", $date);
     $content = $XML->createElement("messageContent", $_POST['message']);

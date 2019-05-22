@@ -4,6 +4,7 @@
 $title = 'Login';
 include 'head.php';
 ?>
+
 <body>
     <header>
         <nav class="navbar">
@@ -22,8 +23,8 @@ include 'head.php';
                 //salt string
                 $salt = "og6hexmde03j50d93kjfiklabwfil!@$@!ebwsaifldbsufivr!@$@#@!ECdla[0EJWIKALHURFGIAWE!@#&*(@#^$&*!@^";
                 // login credentials
-                $dbUser = 'justin';
-                $passString = 'humber' . $salt;
+                $dbUser = 'jc';
+                $passString = 'password' . $salt;
                 //Gets info from the form
                 $user = $_POST['uname'];
                 $passInput = $_POST['pass'] . $salt;

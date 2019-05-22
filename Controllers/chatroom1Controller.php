@@ -1,4 +1,5 @@
 <?php
+session_write_close();
 session_start();
 if (isset($_POST['message'])) {
     $XML = new DOMDocument();

@@ -34,36 +34,18 @@
     <username userId="4">Justin</username>
     <messageTime>2019-04-10 4:45:26</messageTime>
     <messageContent>I'm pretty neutral on this one guys
-</messageContent>
+    </messageContent>
   </message>
   <message id="8">
     <username userId="4">Justin</username>
     <messageTime>2019-04-10 4:45:42</messageTime>
     <messageContent>it's not bad but not the best either
-</messageContent>
+    </messageContent>
   </message>
   <message id="9">
-    <username userId="4">Justin</username>
-    <messageTime>2019-05-22 4:15:21</messageTime>
-    <messageContent>test
-</messageContent>
-  </message>
-  <message id="10">
-    <username userId="4">Justin</username>
-    <messageTime>2019-05-22 4:16:20</messageTime>
+    <username userId="4"/>
+    <messageTime>2019-05-22 15:45:25</messageTime>
     <messageContent>hi
-</messageContent>
-  </message>
-  <message id="10">
-    <username userId="4">Justin</username>
-    <messageTime>2019-05-22 4:16:20</messageTime>
-    <messageContent>hi
-</messageContent>
-  </message>
-  <message id="12">
-    <username userId="4">Justin</username>
-    <messageTime>2019-05-22 4:16:37</messageTime>
-    <messageContent>hello
 </messageContent>
   </message>
 </chatroom>

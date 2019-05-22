@@ -1,5 +1,7 @@
 $(document).ready(function () {
-    $("#chatbox3").load("../Controllers/loadChat3.php");
+    setInterval(function() {
+        $("#chatbox3").load("../Controllers/loadChat3.php");
+      }, 1000);
     $("#sendMsg3").on('click', function () {
         let message = $("#newMsg3").val();
         $.post("../Controllers/chatroom3Controller.php", {

@@ -13,7 +13,7 @@ include '../head.php';
     ?>
     <div class="pageWrap">
         <main>
-            <a id="back" href="http://localhost/Critical-Debates/Views/chatroomList.php">Back to Chatrooms</a>
+            <a id="back" href="http://criticaldebates.justincoutinho.com/Views/chatroomList.php">Back to Chatrooms</a>
             <h1>Do airpods look silly?</h1>
 
             <div id="chatbox3">

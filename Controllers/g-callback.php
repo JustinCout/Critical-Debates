@@ -19,5 +19,5 @@ $_SESSION['picture'] = $userData['picture'];
 $_SESSION['familyName'] = $userData['familyName'];
 $_SESSION['givenName'] = $userData['givenName'];
 
-header('Location: http://localhost/Critical-Debates/Views/chatroomList.php');
+header('Location: http://criticaldebates.justincoutinho.com/Views/chatroomList.php');
 exit();

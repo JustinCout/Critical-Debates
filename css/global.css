@@ -11,11 +11,7 @@ body {
   flex: 1 0 auto;
   justify-content: center;
   background-color: #1c313a !important;
-}
 
-html,
-body {
-  min-height: 100%;
 }
 
 * {
@@ -26,8 +22,7 @@ body {
   max-width: 1200px;
   position: relative;
   margin: 0 auto;
-  min-height: 100vh;
-  padding-bottom: 50px;
+  min-height: 100%;
 }
 
 /* Login */
@@ -36,7 +31,7 @@ body {
   border-radius: 9px;
   width: 500px;
   padding: 25px;
-  margin: 0 auto;
+  margin:100px 0 0 0;
   color: #fff;
 }
 
@@ -210,10 +205,12 @@ h1 {
   background-color: #2d2e2e;
   color: #fff;
   position: absolute;
+  padding:0 0 8vh 0;
   bottom: 0;
+  flex-shrink: 0;
 }
 
 #copyright {
-  padding: 10px;
+  margin:20px 0 0 0;
   color: rgb(255, 255, 255);
 }

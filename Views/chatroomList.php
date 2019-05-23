@@ -16,15 +16,15 @@ include '../head.php';
             <h1>Chatrooms</h1>
 
             <?php
-            $xml = simplexml_load_file("..\xml\chatrooms.xml");
+            $xml = simplexml_load_file("../xml/chatrooms.xml");
 
             foreach ($xml->room as $room) {
                 echo "<div class='chatroomBlock'><div class='imgContainer img" . $room->attributes() . "'></div><ul>
             <li><a href='chatroom" . $room->attributes() . ".php'>$room->topic</a></li>
             </ul></div>";
             }
-            ?>
 
+            ?>
 
         </main>
     </div>

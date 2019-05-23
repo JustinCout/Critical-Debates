@@ -42,10 +42,4 @@
     <messageContent>it's not bad but not the best either
     </messageContent>
   </message>
-  <message id="9">
-    <username userId="4"/>
-    <messageTime>2019-05-22 15:45:25</messageTime>
-    <messageContent>hi
-</messageContent>
-  </message>
 </chatroom>

@@ -6,28 +6,4 @@
     <messageContent>tabs&gt;&gt;&gt;
     </messageContent>
   </message>
-  <message id="2">
-    <username userId="4"/>
-    <messageTime>2019-05-22 15:31:36</messageTime>
-    <messageContent>test
-</messageContent>
-  </message>
-  <message id="3">
-    <username userId="4"/>
-    <messageTime>2019-05-22 15:32:43</messageTime>
-    <messageContent>hello
-</messageContent>
-  </message>
-  <message id="4">
-    <username userId="4"/>
-    <messageTime>2019-05-22 15:35:32</messageTime>
-    <messageContent>hi
-</messageContent>
-  </message>
-  <message id="5">
-    <username userId="4">Justin</username>
-    <messageTime>2019-05-22 16:04:20</messageTime>
-    <messageContent>sup
-</messageContent>
-  </message>
 </chatroom>

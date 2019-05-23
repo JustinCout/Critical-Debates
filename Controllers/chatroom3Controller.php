@@ -5,7 +5,7 @@ if (isset($_POST['message'])) {
     $XML = new DOMDocument();
     $XML->preserveWhiteSpace = false;
     $XML->formatOutput = true;
-    $XML->load('..\xml\chatroom3.xml');
+    $XML->load('../xml/chatroom3.xml');
     $chatroom = $XML->documentElement;
     $XML->appendChild($chatroom);
 
@@ -34,9 +34,9 @@ if (isset($_POST['message'])) {
     $msgContainer->appendChild($msgID);
     $name->appendChild($nameID);
     $nameID->value = '4';
-    $XML->save('..\xml\chatroom3.xml');
+    $XML->save('../xml/chatroom3.xml');
     //values
-    $xml = simplexml_load_file("..\xml\chatroom3.xml");
+    $xml = simplexml_load_file("../xml/chatroom3.xml");
     //increment msg id for each new msg
     for ($i = 0; $i < count($xml->message) + 1; $i++) {
         $msgID->value = $i;
@@ -50,5 +50,5 @@ if (isset($_POST['message'])) {
         echo '<p>' . $msg->messageContent . '</p>
     </div>';
     }
-    $XML->save('..\xml\chatroom3.xml');
+    $XML->save('../xml/chatroom3.xml');
 }
